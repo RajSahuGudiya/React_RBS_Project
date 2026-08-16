@@ -1,0 +1,97 @@
+/**
+ * Form styles
+ */
+
+.form-section {
+  margin-bottom: 1.5rem;
+}
+
+.form-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--rbs-text);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rbs-border);
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 0.375rem;
+}
+
+.form-label.required::after {
+  content: ' *';
+  color: var(--rbs-danger);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--rbs-primary-light);
+  box-shadow: 0 0 0 0.2rem rgba(30, 58, 95, 0.15);
+}
+
+.form-error {
+  font-size: 0.8rem;
+  color: var(--rbs-danger);
+  margin-top: 0.25rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rbs-border);
+  margin-top: 1.5rem;
+}
+
+.multi-select-container {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid var(--rbs-border);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.multi-select-item {
+  padding: 0.375rem 0.5rem;
+}
+
+.multi-select-item:hover {
+  background-color: rgba(30, 58, 95, 0.05);
+}
+
+.form-modal .modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.detail-item label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--rbs-text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.detail-item span {
+  font-size: 0.95rem;
+  color: var(--rbs-text);
+}
+
+@media (max-width: 576px) {
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .form-actions .btn {
+    width: 100%;
+  }
+}
