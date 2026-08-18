@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "code": "DASHBOARD_VIEW",
+    "name": "View Dashboard",
+    "moduleName": "Dashboard",
+    "description": "View dashboard summary",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 2,
+    "code": "USER_VIEW",
+    "name": "View Users",
+    "moduleName": "Users",
+    "description": "View users",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 3,
+    "code": "USER_CREATE",
+    "name": "Create Users",
+    "moduleName": "Users",
+    "description": "Create users",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 4,
+    "code": "USER_DELETE",
+    "name": "Delete Users",
+    "moduleName": "Users",
+    "description": "Delete users",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 5,
+    "code": "USER_UPDATE",
+    "name": "Update Users",
+    "moduleName": "Users",
+    "description": "Update users",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 6,
+    "code": "ROLE_VIEW",
+    "name": "View Roles",
+    "moduleName": "Roles",
+    "description": "View roles",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 7,
+    "code": "ROLE_CREATE",
+    "name": "Create Roles",
+    "moduleName": "Roles",
+    "description": "Create roles",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 8,
+    "code": "ROLE_DELETE",
+    "name": "Delete Roles",
+    "moduleName": "Roles",
+    "description": "Delete roles",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 9,
+    "code": "ROLE_UPDATE",
+    "name": "Update Roles",
+    "moduleName": "Roles",
+    "description": "Update roles",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 10,
+    "code": "PERMISSION_VIEW",
+    "name": "View Permissions",
+    "moduleName": "Permissions",
+    "description": "View permissions",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 11,
+    "code": "PERMISSION_CREATE",
+    "name": "Create Permissions",
+    "moduleName": "Permissions",
+    "description": "Create permissions",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 12,
+    "code": "PERMISSION_UPDATE",
+    "name": "Update Permissions",
+    "moduleName": "Permissions",
+    "description": "Update permissions",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 13,
+    "code": "PERMISSION_DELETE",
+    "name": "Delete Permissions",
+    "moduleName": "Permissions",
+    "description": "Delete permissions",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 14,
+    "code": "MENU_VIEW",
+    "name": "View Menus",
+    "moduleName": "Menus",
+    "description": "View application menus",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 15,
+    "code": "MENU_CREATE",
+    "name": "Create Menus",
+    "moduleName": "Menus",
+    "description": "Create application menus",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 16,
+    "code": "MENU_UPDATE",
+    "name": "Update Menus",
+    "moduleName": "Menus",
+    "description": "Update application menus",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 17,
+    "code": "AUDIT_VIEW",
+    "name": "View Audit Logs",
+    "moduleName": "Audit Logs",
+    "description": "View audit events",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 18,
+    "code": "MENU_DELETE",
+    "name": "Delete Menus",
+    "moduleName": "Menus",
+    "description": "Delete application menus",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 19,
+    "code": "SETTINGS_VIEW",
+    "name": "View Settings",
+    "moduleName": "Settings",
+    "description": "View application settings",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 20,
+    "code": "PERMISSION_DELETE",
+    "name": "Delete Permissions",
+    "moduleName": "Permissions",
+    "description": "Delete permissions",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 21,
+    "code": "USER_ROLE_ASSIGN",
+    "name": "Assign User Roles",
+    "moduleName": "Users",
+    "description": "Assign roles to users",
+    "status": "ACTIVE"
+  }
+]

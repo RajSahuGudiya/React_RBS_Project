@@ -1,4 +1,6 @@
 import axios from 'axios';
+import { isReadLocalJsonFileEnabled } from './apiDataSource';
+import localApiClient from './localApiClient';
 import {
   getAccessToken,
   getTokenType,
@@ -10,7 +12,7 @@ import {
  * Centralized Axios configuration for REST API communication
  * Base URL comes from environment variable for easy backend integration
  */
-const apiClient = axios.create({
+const remoteApiClient = axios.create({
   baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:8080/api',
   timeout: 30000,
   headers: {
@@ -21,7 +23,7 @@ const apiClient = axios.create({
 /**
  * Axios request interceptor - attaches JWT token to every request
  */
-apiClient.interceptors.request.use(
+remoteApiClient.interceptors.request.use(
   (config) => {
     const token = getAccessToken();
     if (token && isTokenValid()) {
@@ -39,7 +41,7 @@ apiClient.interceptors.request.use(
  * 403: Forbidden - access denied
  * Network errors: clean user-friendly messages
  */
-apiClient.interceptors.response.use(
+remoteApiClient.interceptors.response.use(
   (response) => response,
   (error) => {
     const { response } = error;
@@ -83,6 +85,8 @@ apiClient.interceptors.response.use(
     return Promise.reject(error);
   }
 );
+
+const apiClient = isReadLocalJsonFileEnabled() ? localApiClient : remoteApiClient;
 
 export default apiClient;
 

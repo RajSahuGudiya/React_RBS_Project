@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "action": "LOGIN",
+    "moduleName": "Authentication",
+    "description": "Administrator logged in",
+    "timestamp": "2026-08-18T09:10:00Z",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 2,
+    "username": "manager",
+    "action": "UPDATE",
+    "moduleName": "Users",
+    "description": "Updated operator user",
+    "timestamp": "2026-08-18T10:20:00Z",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 3,
+    "username": "security",
+    "action": "ASSIGN_PERMISSION",
+    "moduleName": "Roles",
+    "description": "Updated permissions for MANAGER",
+    "timestamp": "2026-08-18T11:05:00Z",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 4,
+    "username": "viewer",
+    "action": "LOGIN",
+    "moduleName": "Authentication",
+    "description": "Viewer logged in",
+    "timestamp": "2026-08-18T12:00:00Z",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 5,
+    "username": "admin",
+    "action": "CREATE",
+    "moduleName": "Menus",
+    "description": "Created Settings menu",
+    "timestamp": "2026-08-18T13:15:00Z",
+    "status": "SUCCESS"
+  },
+  {
+    "id": 6,
+    "username": "operator",
+    "action": "UPDATE",
+    "moduleName": "Users",
+    "description": "Updated user status",
+    "timestamp": "2026-08-18T14:00:00Z",
+    "status": "SUCCESS"
+  }
+]

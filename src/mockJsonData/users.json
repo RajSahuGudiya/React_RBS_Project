@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@rbs.com",
+    "firstName": "System",
+    "lastName": "Administrator",
+    "status": "ACTIVE",
+    "roles": [
+      "ADMIN"
+    ],
+    "roleIds": [
+      1
+    ],
+    "createdAt": "2026-01-05T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "username": "manager",
+    "email": "manager@rbs.com",
+    "firstName": "Project",
+    "lastName": "Manager",
+    "status": "ACTIVE",
+    "roles": [
+      "MANAGER"
+    ],
+    "roleIds": [
+      2
+    ],
+    "createdAt": "2026-01-10T09:30:00Z"
+  },
+  {
+    "id": 3,
+    "username": "security",
+    "email": "security@rbs.com",
+    "firstName": "Security",
+    "lastName": "Administrator",
+    "status": "ACTIVE",
+    "roles": [
+      "SECURITY_ADMIN"
+    ],
+    "roleIds": [
+      3
+    ],
+    "createdAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "username": "operator",
+    "email": "operator@rbs.com",
+    "firstName": "Application",
+    "lastName": "Operator",
+    "status": "ACTIVE",
+    "roles": [
+      "OPERATOR"
+    ],
+    "roleIds": [
+      4
+    ],
+    "createdAt": "2026-02-01T10:15:00Z"
+  },
+  {
+    "id": 5,
+    "username": "viewer",
+    "email": "viewer@rbs.com",
+    "firstName": "Read",
+    "lastName": "Only",
+    "status": "ACTIVE",
+    "roles": [
+      "VIEWER"
+    ],
+    "roleIds": [
+      5
+    ],
+    "createdAt": "2026-02-05T11:00:00Z"
+  },
+  {
+    "id": 6,
+    "username": "inactive.user",
+    "email": "inactive@rbs.com",
+    "firstName": "Inactive",
+    "lastName": "User",
+    "status": "INACTIVE",
+    "roles": [
+      "VIEWER"
+    ],
+    "roleIds": [
+      5
+    ],
+    "createdAt": "2026-02-12T11:30:00Z"
+  }
+]

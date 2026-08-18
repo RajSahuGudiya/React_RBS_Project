@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "menuName": "Dashboard",
+    "path": "/dashboard",
+    "icon": "bi-speedometer2",
+    "permissionCode": "DASHBOARD_VIEW",
+    "displayOrder": 1,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 2,
+    "menuName": "Users",
+    "path": "/users",
+    "icon": "bi-people",
+    "permissionCode": "USER_VIEW",
+    "displayOrder": 2,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 3,
+    "menuName": "Roles",
+    "path": "/roles",
+    "icon": "bi-person-badge",
+    "permissionCode": "ROLE_VIEW",
+    "displayOrder": 3,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 4,
+    "menuName": "Permissions",
+    "path": "/permissions",
+    "icon": "bi-shield-lock",
+    "permissionCode": "PERMISSION_VIEW",
+    "displayOrder": 4,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 5,
+    "menuName": "Menu Access",
+    "path": "/menus",
+    "icon": "bi-list",
+    "permissionCode": "MENU_VIEW",
+    "displayOrder": 5,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 6,
+    "menuName": "Audit Logs",
+    "path": "/audit-logs",
+    "icon": "bi-journal-text",
+    "permissionCode": "AUDIT_VIEW",
+    "displayOrder": 6,
+    "status": "ACTIVE"
+  },
+  {
+    "id": 7,
+    "menuName": "Settings",
+    "path": "/settings",
+    "icon": "bi-gear",
+    "permissionCode": "SETTINGS_VIEW",
+    "displayOrder": 7,
+    "status": "ACTIVE"
+  }
+]
