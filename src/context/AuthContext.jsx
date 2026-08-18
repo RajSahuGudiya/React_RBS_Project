@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import authApi from '../api/authApi';
+import { isReadLocalJsonFileEnabled } from '../api/apiDataSource';
 import {
   saveAuthData,
   clearAuthData,
@@ -12,7 +13,8 @@ import { hasPermission } from '../utils/permissionUtils';
 import { PERMISSIONS } from '../utils/constants';
 
 const AuthContext = createContext(null);
-const IS_DEVELOPER_MODE = process.env.REACT_APP_DEVELOPER_MODE === 'true';
+const IS_DEVELOPER_MODE =
+  process.env.REACT_APP_DEVELOPER_MODE === 'true' && !isReadLocalJsonFileEnabled();
 const DEVELOPER_USERNAME = 'admin';
 const DEVELOPER_PASSWORD = 'admin123';
 

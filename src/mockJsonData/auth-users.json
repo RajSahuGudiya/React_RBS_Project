@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "username": "manager",
+    "password": "manager123",
+    "userId": 2
+  },
+  {
+    "id": 3,
+    "username": "security",
+    "password": "security123",
+    "userId": 3
+  },
+  {
+    "id": 4,
+    "username": "operator",
+    "password": "operator123",
+    "userId": 4
+  },
+  {
+    "id": 5,
+    "username": "viewer",
+    "password": "viewer123",
+    "userId": 5
+  },
+  {
+    "id": 6,
+    "username": "inactive.user",
+    "password": "inactive123",
+    "userId": 6
+  }
+]

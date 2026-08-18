@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "totalUsers": 6,
+    "activeUsers": 5,
+    "totalRoles": 5,
+    "totalPermissions": 21,
+    "recentLoginCount": 17,
+    "pendingSecurityActions": 2,
+    "recentUpdates": [
+      {
+        "id": 1,
+        "moduleName": "Users",
+        "action": "UPDATE",
+        "description": "Operator profile updated",
+        "timestamp": "2026-08-18T10:20:00Z"
+      },
+      {
+        "id": 2,
+        "moduleName": "Roles",
+        "action": "UPDATE",
+        "description": "Manager role permissions updated",
+        "timestamp": "2026-08-18T11:05:00Z"
+      },
+      {
+        "id": 3,
+        "moduleName": "Menus",
+        "action": "CREATE",
+        "description": "Settings menu created",
+        "timestamp": "2026-08-18T13:15:00Z"
+      }
+    ]
+  }
+]
